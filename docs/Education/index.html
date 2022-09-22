@@ -1,3 +1,10 @@
+<!--
+    Anthony Tobias
+    CPSC 332
+    HW2
+    Last Modified: 9/21/22
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +12,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Education and Qualifications</title>
-    <link rel="icon" href="../HTML.jpg">
+    <link rel="icon" href="../HTML.jpg"> <!--favicon-->
     
     <style>
         table,
@@ -18,93 +25,96 @@
 
 </head>
 <body>
-    <h1>Education</h1>
-
-    <table>
-        <thead>
-            <tr>
-                <th>
-                    School
-                </th>
-                <th>
-                    Major
-                </th>
-                <th>
-                    Minor
-                </th>
-                <th>
-                    Concentration
-                </th>
-                <th>
-                    Start Date
-                </th>
-                <th>
-                    End Date
-                </th>
-            </tr>
-        </thead>
-
-        <tbody>
-            <tr>
-                <td>Gonzaga University</td>
-                <td>Computer Science</td>
-                <td>Applied Mathematics</td>
-                <td>N/A</td>
-                <td>August 2019</td>
-                <td>May 2023</td>
-            </tr>
-        </tbody>
-    </table>
-
-    <table>
-        <h1>Qualifications</h1>
-        <thead>
-            <tr>
-                <th>
-                    Course Number
-                </th>
-                <th>
-                    Class Name
-                </th>
-                <th>
-                    Language
-                </th>
-            </tr>
-        </thead>
-
-        <tbody>
-            <tr>
-                <td>CPSC 224</td>
-                <td>Software Development</td>
-                <td>Java</td>
-            </tr>
-            <tr>
-                <td>CPSC 332</td>
-                <td>Web Development</td>
-                <td>HTML</td>
-            </tr>
-            <tr>
-                <td>CPSC 322</td>
-                <td>Data Science & Algorithms</td>
-                <td>Python</td>
-            </tr>
-        </tbody>
-    </table>
     
-    <form action="../index.html">
+    <!--Table for education-->
+    <section>
+        <h1>Education</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        School
+                    </th>
+                    <th>
+                        Major
+                    </th>
+                    <th>
+                        Minor
+                    </th>
+                    <th>
+                        Concentration
+                    </th>
+                    <th>
+                        Start Date
+                    </th>
+                    <th>
+                        End Date
+                    </th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Gonzaga University</td>
+                    <td>Computer Science</td>
+                    <td>Applied Mathematics</td>
+                    <td>N/A</td>
+                    <td>August 2019</td>
+                    <td>May 2023</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!--Table for qualifications-->
+    <section>
+        <table>
+            <h1>Qualifications</h1>
+            <thead>
+                <tr>
+                    <th>
+                        Course Number
+                    </th>
+                    <th>
+                        Class Name
+                    </th>
+                    <th>
+                        Language
+                    </th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>CPSC 224</td>
+                    <td>Software Development</td>
+                    <td>Java</td>
+                </tr>
+                <tr>
+                    <td>CPSC 332</td>
+                    <td>Web Development</td>
+                    <td>HTML</td>
+                </tr>
+                <tr>
+                    <td>CPSC 322</td>
+                    <td>Data Science & Algorithms</td>
+                    <td>Python</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!--Links to other 3 pages-->
+    <section>
         <p>
-            <input type="submit" value="View Introduction">
+            <a href="../index.html">View Introduction</a>
         </p>
-    </form>
-    <form action="../careerSummary/index.html">
         <p>
-            <input type="submit" value="View Career Summary">
+            <a href="../careerSummary/index.html">View Career Summary</a>
         </p>
-    </form>
-    <form action="../InterestHobbies/index.html">
         <p>
-            <input type="submit" value="View Interests and Hobbies">
+            <a href="../InterestHobbies/index.html">View Interests and Hobbies</a>
         </p>
-    </form>
+    </section>
 </body>
 </html>
